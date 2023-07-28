@@ -14,3 +14,7 @@ def if_cond(request):
 def if_elif_cond(request):
     d = {'a':100,'b':120,'c':55}
     return render(request, 'if_elif_cond.html', context=d)
+
+def nested_if(request):
+    d = {'a':459,'b':120,'c':55}
+    return render(request, 'nested_if.html',context=d)
