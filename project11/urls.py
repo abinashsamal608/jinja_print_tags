@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('data_render/',data_render,name='data_render'),
     path('if_cond/', if_cond, name = 'if_cond'),
+    path('if_elif_cond/',if_elif_cond, name='if_elif_cond'),
 ]

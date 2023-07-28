@@ -11,3 +11,6 @@ def if_cond(request):
     d = {'a':100,'b':120}
     return render(request, 'if_cond.html', context = d)
 
+def if_elif_cond(request):
+    d = {'a':100,'b':120,'c':55}
+    return render(request, 'if_elif_cond.html', context=d)
